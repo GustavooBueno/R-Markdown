@@ -1,0 +1,23 @@
+---
+title: "Executando código"
+author: "Gustavo"
+date: "12/10/2021"
+output: html_document
+---
+
+# Bloco de código
+
+## Bloco
+
+```{r }
+
+# Aqui já esta funcionando o código R
+
+lista_teste <- c(1:10)
+max(lista_teste)
+
+```
+
+## Inline
+
+``r max(lista_teste)``

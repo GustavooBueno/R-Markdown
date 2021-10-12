@@ -1,0 +1,30 @@
+---
+title: "Listas"
+author: "Gustavo"
+date: "12/10/2021"
+output: html_document
+---
+
+# Listas
+
+### Lista ordenada
+
+1. Gustavo
+2. Souza
+3. Bueno
+
+### Lista não ordenada
+
+* Gustavo
+* Souza
+* Bueno
+
+### Sublista
+
+1. Exemplo
+2. DE
+3. Sublista:
+    + Esta
+    + É
+    + Uma
+    + Sublista

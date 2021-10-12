@@ -1,0 +1,51 @@
+---
+title: "Flags do bloco de código"
+author: "Gustavo"
+date: "12/10/2021"
+output: html_document
+---
+
+# Configurando os blocos de código
+
+Podemos configurar os blocos de código com algumas flags. Elas podem possuir o
+valor `TRUE` ou `FALSE`.
+
+## Flags
+
+### Eval
+
+o `eval` habilita ou não a execução do código. 
+Com `eval= FALSE` o código não será executado e possíveis valores não serão 
+armazenados.
+
+```{r eval = TRUE}
+
+str(x <- "Churros")
+
+```
+
+``r x ``
+
+### Echo
+
+o `echo` mostra o código junto ao resultado.
+
+```{r echo = TRUE}
+
+teste <- c(1:10)
+teste
+
+```
+
+### Warning
+
+o `warning` exibe possíveis advertências no código
+
+```{r warning=TRUE}
+
+warning("Estou aqui testando")
+
+```
+
+
+

@@ -1,0 +1,17 @@
+---
+title: "Escrevendo equações com Latex"
+author: "Gustavo"
+date: "12/10/2021"
+output: html_document
+---
+
+# Fórmulas mateáticas
+
+Deve-se usar `$$ LaTex $$` (bloco) ou `$ LaTex $`(linha)
+
+## Exemplo
+
+$$
+  \sqrt{\frac{a}{b}}
+$$
+

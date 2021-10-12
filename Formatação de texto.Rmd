@@ -1,0 +1,14 @@
+---
+title: "Formatação de texto"
+author: "Gustavo"
+date: "12/10/2021"
+output: html_document
+---
+
+# Formatação de texto
+
+Eu estou testando agora a *formatação de texto*
+
+Eu estou testando agora a **formatação de texto**
+
+Eu estou testando agora a `formatação de texto`

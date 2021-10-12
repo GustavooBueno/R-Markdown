@@ -1,0 +1,21 @@
+---
+title: "Nomeando e executando os blocos de código"
+author: "Gustavo"
+date: "12/10/2021"
+output: html_document
+---
+
+# Nomeando e executando os blocos de código
+
+```{r teste, eval=FALSE, echo=FALSE}
+#criando código
+
+modelo_teste <- arima.sim(model = list(c(0,0,0)), n = 50)
+plot(modelo_teste)
+
+```
+
+```{r ref.label= 'teste'}
+#Executando o código previamente criado
+
+```

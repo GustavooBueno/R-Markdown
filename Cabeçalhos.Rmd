@@ -1,0 +1,17 @@
+---
+title: "Teste"
+author: "Gustavo"
+date: "12/10/2021"
+output: html_document
+---
+
+# Cabeçalhos do R Markdown
+Quanto mais # menor é o cabeçalho.
+
+### Exemplos:
+
+# H1
+## H2
+### H3
+#### H4
+##### H5
